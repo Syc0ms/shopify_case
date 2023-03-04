@@ -2271,6 +2271,7 @@ product-info .loading-overlay:not(.hidden) ~ *,
 .header-wrapper {
   display: block;
   position: relative;
+  background-color: black;
   
 }
 
@@ -2283,6 +2284,7 @@ product-info .loading-overlay:not(.hidden) ~ *,
   grid-template-areas: 'left-icon heading icons';
   grid-template-columns: 1fr 2fr 1fr;
   align-items: center;
+  background-color: black;
 }
 
 @media screen and (min-width: 990px) {
